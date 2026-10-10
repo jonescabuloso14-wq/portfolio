@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Joao Pedro | Portfólio</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <nav id="nav">
+    <button data-go="home">Joao</button><button data-go="skills">Skills</button><button data-go="projetos">Projetos</button><button data-go="contato">Contato</button>
+    <span class="ind" id="ind"></span>
+  </nav>
+  <button class="sw" id="sw" role="switch" aria-label="Alternar tema"><i></i></button>
+</header>
+<main>
+<section class="page" id="home"><div class="hero">
+  <div>
+    <p class="hi">Olá, eu sou</p>
+    <h1 class="name" id="nm">JOAO PEDRO</h1>
+    <div class="role" id="role"></div>
+    <p class="bio">Tenho 18 anos e estou no 2º ano do Cotemig estudando sobre TI. Pretendo ser engenheiro de software com várias habilidades e resolver problemas de pessoas com o meu conhecimento e minhas habilidades sociais no que precisarem.</p>
+    <div class="stats">
+      <div class="stat"><b class="num" data-n="18">0</b><small>anos</small></div>
+      <div class="stat"><b class="num" data-n="2">0</b><small>º ano Cotemig</small></div>
+      <div class="stat"><b class="num" data-n="3">0</b><small>projetos</small></div>
+    </div>
+  </div>
+  <div class="pw"><div class="frame"><img src="img/foto.jpg" alt="Joao Pedro"></div></div>
+</div></section>
+
+<section class="page" id="skills">
+  <div class="card"><span class="pill">HABILIDADES</span><h2>O que eu sei fazer</h2><p class="sub">Habilidades técnicas e comportamentais que uso no dia a dia.</p></div>
+  <div class="card"><div class="lab">HARD SKILLS</div>
+    <div class="row"><b>HTML &amp; CSS</b><span>avançado</span></div><div class="bar"><i style="--w:90%"></i></div>
+    <div class="row"><b>SQL</b><span>intermediário</span></div><div class="bar"><i style="--w:68%"></i></div></div>
+  <div class="card"><div class="lab">SOFT SKILLS</div><div class="chips">
+    <span style="--c:0">Comunicação</span><span style="--c:1">Trabalho em equipe</span><span style="--c:2">Organização</span><span style="--c:3">Resolução de problemas</span><span style="--c:4">Proatividade</span><span style="--c:5">Adaptabilidade</span><span style="--c:6">Aprendizado contínuo</span></div></div>
+</section>
+
+<section class="page" id="projetos">
+  <div class="card"><span class="pill">PROJETOS</span><h2>O que eu já construí</h2><p class="sub">Uma seleção dos projetos que melhor mostram como eu trabalho.</p></div>
+  <div class="g3">
+    <a class="card proj tilt" href="https://dvalvsec.github.io/LANDING-PAGE-JONES-2/" target="_blank" rel="noopener"><div class="thumb">Landing page</div><div class="pb"><h3>ANL Açaí | Landing Page</h3><p class="sub">Landing page do melhor açaí de Nova Lima, com chamadas para experimentar e fazer o pedido.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Landing page</span></div><span class="lk">Ver projeto <b>→</b></span></div></a>
+    <a class="card proj tilt" href="https://jonescabuloso14-wq.github.io/site-acai-2/" target="_blank" rel="noopener"><div class="thumb">Site completo</div><div class="pb"><h3>ANL Açaí | Site</h3><p class="sub">Site com várias páginas: home, produtos, cadastro, busca, contato e pedidos.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Multipágina</span></div><span class="lk">Ver projeto <b>→</b></span></div></a>
+    <a class="card proj tilt" href="https://jonescabuloso14-wq.github.io/site-position/" target="_blank" rel="noopener"><div class="thumb">Restaurante</div><div class="pb"><h3>Rooftop | Restaurante</h3><p class="sub">Página de restaurante com menu, galeria de fotos e reserva de mesa.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Layout</span></div><span class="lk">Ver projeto <b>→</b></span></div></a>
+  </div>
+</section>
+
+<section class="page" id="contato">
+  <div class="card"><span class="pill">CONTATO</span><h2>Vamos conversar</h2><p class="sub">Aberto(a) a oportunidades, freelas e trocas de ideia.</p></div>
+  <div class="cg">
+    <div class="card"><div class="lab">CLIQUE PARA COPIAR</div>
+      <button class="ct" data-c="jonescabuloso14@gmail.com"><small>email</small><span>jonescabuloso14@gmail.com</span></button>
+      <button class="ct" data-c="Github.com/jonescabuloso14-wq"><small>Github</small><span>Github.com/jonescabuloso14-wq</span></button>
+      <button class="ct" data-c="31 9 7332-7770"><small>telefone</small><span>31 9 7332-7770</span></button></div>
+    <div class="card"><div class="lab">ENVIE UMA MENSAGEM</div>
+      <input placeholder="Nome:"><input placeholder="Email:"><textarea rows="4" placeholder="Mensagem:"></textarea>
+      <button class="send" id="send">Enviar mensagem</button></div>
+  </div>
+</section>
+</main>
+<div class="toast" id="ts"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
